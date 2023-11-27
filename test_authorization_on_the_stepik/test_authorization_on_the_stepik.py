@@ -2,7 +2,6 @@ import math
 import pytest
 import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 
 final = ''
