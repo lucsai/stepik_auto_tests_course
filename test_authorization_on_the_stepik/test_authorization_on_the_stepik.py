@@ -1,4 +1,3 @@
-123
 import math
 import pytest
 import time
@@ -34,7 +33,3 @@ def test_authorization(browser, lesson):
         assert 'Correct!' == check_text
     except AssertionError:
         final += check_text  # собираем ответ про Сов с каждой ошибкой
-
-
-# if __name__ == '__main__':
-#      pytest.main()
