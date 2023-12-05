@@ -2,8 +2,6 @@ import math
 import pytest
 import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-#from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 
 final = ''
@@ -35,7 +33,3 @@ def test_authorization(browser, lesson):
         assert 'Correct!' == check_text
     except AssertionError:
         final += check_text  # собираем ответ про Сов с каждой ошибкой
-
-
-# if __name__ == '__main__':
-#      pytest.main()
